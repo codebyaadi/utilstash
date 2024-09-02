@@ -1,0 +1,8 @@
+export { getRandomAvatar } from '@/utils/get-random-profile-img'
+export { sanitize } from '@/utils/sanatize'
+export { calcTimeDiff } from '@/utils/calc-time-diff'
+export { generateOTP } from '@/utils/generate-otp'
+export { getFileDataURI } from '@/utils/get-file-data-uri'
+export { validateFile } from '@/utils/validate-file'
+export { getFileExtension } from '@/utils/get-file-extension'
+export { formatFileSize } from '@/utils/format-file-size'

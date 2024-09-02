@@ -1,0 +1,41 @@
+{
+  "name": "utilstash",
+  "version": "0.0.1",
+  "description": "A utility package for various common tasks",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "keywords": [
+    "utility",
+    "tools",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Aditya Rajbhar <codebyaadi@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebyaadi/utilstash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codebyaadi/utilstash/issues"
+  },
+  "homepage": "https://github.com/codebyaadi/utilstash",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.3.3",
+    "tsup": "^8.2.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
