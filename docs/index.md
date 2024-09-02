@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Utilstash"
   text: "A utility package for various common tasks"
-  tagline: My great project tagline
+  tagline: Streamline your development with a versatile toolkit of utilities.
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Comprehensive Utilities
+    details: A wide range of utility functions designed to simplify and enhance your development workflow.
+  - title: Easy Integration
+    details: Quickly integrate our tools into your projects with minimal setup and effort.
+  - title: Optimized for Performance
+    details: Benefit from optimized and efficient functions that ensure smooth and reliable operation.
 ---
 
