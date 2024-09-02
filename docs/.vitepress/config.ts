@@ -1,4 +1,7 @@
 import { defineConfig } from 'vitepress'
+import { name } from '../../package.json';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -24,5 +27,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  base: isProd ? `/${name}/` : undefined,
 })
