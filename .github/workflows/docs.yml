@@ -4,8 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "docs/**"
-      - "package.json" # for versioning
+      - 'docs/**'
+      - 'package.json' # for versioning
 
   # leave empty, we just want the button
   workflow_dispatch:

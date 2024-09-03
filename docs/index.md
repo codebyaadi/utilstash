@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Utilstash"
-  text: "A utility package for various common tasks"
+  name: 'Utilstash'
+  text: 'A utility package for various common tasks'
   tagline: Streamline your development with a versatile toolkit of utilities.
   actions:
     - theme: brand
@@ -22,4 +22,3 @@ features:
   - title: Optimized for Performance
     details: Benefit from optimized and efficient functions that ensure smooth and reliable operation.
 ---
-
