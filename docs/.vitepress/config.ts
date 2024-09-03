@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
-import { name } from '../../package.json';
+import { name } from '../../package.json'
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === 'production'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Utilstash",
-  description: "A utility package for various common tasks",
+  title: 'Utilstash',
+  description: 'A utility package for various common tasks',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,5 +28,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-  base: isProd ? `/${name}/` : undefined,
+  base: isProd ? `/${name}/` : undefined
 })
